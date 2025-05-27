@@ -145,7 +145,7 @@ async function getAIAnswer(question) {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
-                'Authorization': 'Bearer sk-74066025ba2b43d398423dd9028d46e2'
+                'Authorization': 'Bearer you-deepseek-key'
             },
             body: JSON.stringify({
                 model: 'deepseek-chat',
